@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Detalhes do Produto</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>TechStore</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produto.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="flex-duas-colunas">
+            <div class="coluna"> <img src="img/headphone.png" alt="Headphone Pro"
+                    class="imagem-produto-grande">
+            </div>
+
+            <div class="coluna">
+                <h2>Headphone Pro Noise Cancelling</h2>
+                <p>Experimente o som como nunca antes. Cancelamento de ruído ativo, bateria de 30 horas e conforto
+                    premium para longas sessões de uso.</p>
+
+                <p class="preco">R$ 299,90</p>
+
+                <label for="cor"><strong>Cor:</strong></label>
+                <select id="cor" style="margin-bottom: 20px; padding: 5px;">
+                    <option>Preto Matte</option>
+                </select>
+
+                <button class="btn-comprar" id="botaoComprar">COMPRAR AGORA</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>Quem viu este produto também comprou</h2>
+            <div class="flex-cards">
+                <div class="card">
+                    <img src="img/suporte.png" alt="Item 1">
+                    <h4>Suporte Headset</h4>
+                    <p>R$ 49,90</p>
+                </div>
+                <div class="card">
+                    <img src="img/cabo.png" alt="Item 2">
+                    <h4>Cabo Auxiliar</h4>
+                    <p>R$ 19,90</p>
+                </div>
+                <div class="card">
+                    <img src="img/carregador.png" alt="Item 3">
+                    <h4>Carregador Rápido</h4>
+                    <p>R$ 89,90</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TechStore - Projeto Final</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
